@@ -11,7 +11,7 @@ router.get('/', (req, res, next) => {
   res.json(data);
 });
 
-
+// * ANVÄND POSTMAN FÖR DETTA
 router.post('/:name', (req, res, next) => {
   const name = req.params.name;
   res.json({
